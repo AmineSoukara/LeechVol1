@@ -52,12 +52,12 @@ async def leech_btn_k(message: Message, cb_data: str):
     if not os.path.isdir(new_download_location):
         os.makedirs(new_download_location)
     if dl_url is not None:
-        await message.edit_text("extracting links")
+        await message.edit_text("💬 Extracting Links")
         # start the aria2c daemon
         aria_i_p = await aria_start()
         LOGGER.info(aria_i_p)
         if "_" in cb_data:
-            await message.edit_text("trying to download")
+            await message.edit_text("📥 Trying To Download 📥")
             # try to download the "link"
             sagtus, err_message = await fake_etairporpa_call(
                 aria_i_p,
@@ -75,7 +75,7 @@ async def leech_btn_k(message: Message, cb_data: str):
             is_zip = False
             if "a" in cb_data:
                 is_zip = True
-            await message.edit_text("trying to download")
+            await message.edit_text("📥 Trying To Download 📥")
             # try to download the "link"
             sagtus, err_message = await call_apropriate_function(
                 aria_i_p,
@@ -90,7 +90,7 @@ async def leech_btn_k(message: Message, cb_data: str):
 
 
 async def ytdl_btn_k(message: Message):
-    i_m_sefg = await message.edit_text("processing")
+    i_m_sefg = await message.edit_text("⏳ Processing ⏳")
     # LOGGER.info(message)
     # extract link from message
     dl_url, cf_name, yt_dl_user_name, yt_dl_pass_word = await extract_link(
@@ -109,7 +109,7 @@ async def ytdl_btn_k(message: Message):
         # create download directory, if not exist
         if not os.path.isdir(user_working_dir):
             os.makedirs(user_working_dir)
-        await i_m_sefg.edit_text("extracting links")
+        await i_m_sefg.edit_text("💬 Extracting Links")
         # list the formats, and display in button markup formats
         thumb_image, text_message, reply_markup = await extract_youtube_dl_formats(
             dl_url,
