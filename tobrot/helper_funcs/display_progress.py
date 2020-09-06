@@ -40,12 +40,12 @@ async def progress_for_pyrogram(
         elapsed_time = TimeFormatter(milliseconds=elapsed_time)
         estimated_total_time = TimeFormatter(milliseconds=estimated_total_time)
 
-        progress = "[{0}{1}] \nP: {2}%\n".format(
-            ''.join([FINISHED_PROGRESS_STR for i in range(math.floor(percentage / 5))]),
-            ''.join([UN_FINISHED_PROGRESS_STR for i in range(20 - math.floor(percentage / 5))]),
+        progress = "[{0}{1}] \n⏳ <b>Progress :</b> {2}%\n".format(
+            ''.join([FINISHED_PROGRESS_STR for i in range(math.floor(percentage / 7))]),
+            ''.join([UN_FINISHED_PROGRESS_STR for i in range(14 - math.floor(percentage / 7))]),
             round(percentage, 2))
 
-        tmp = progress + "{0} of {1}\nSpeed: {2}/s\nETA: {3}\n".format(
+        tmp = progress + "💾 <b>Size :</b> {0} <b>Of</b> {1}\n🚀 <b>Speed :</b> {2}/s\n⏱ <b>ETA :</b> {3}\n\n©️ @SeriesBdarija | @MoviesBdarija".format(
             humanbytes(current),
             humanbytes(total),
             humanbytes(speed),
