@@ -36,16 +36,16 @@ async def get_markup(message: Message):
         "🎦 Youtube-Dl 🎦",
         callback_data=("ytdl").encode("UTF-8")
     ))
-    #inline_keyboard.append(ikeyboard)
-    #ikeyboard = []
-    #ikeyboard.append(InlineKeyboardButton(
-       # "A leech TAR . GZ  🤔🤔",
-        #callback_data=("leecha").encode("UTF-8")
-   # ))
-   # ikeyboard.append(InlineKeyboardButton(
-       # "A youtube-dl TAR . GZ",
-       # callback_data=("ytdla").encode("UTF-8")
-   # ))
+    inline_keyboard.append(ikeyboard)
+    ikeyboard = []
+    ikeyboard.append(InlineKeyboardButton(
+        "Bot Channel",
+        url=("https://t.me/HelpBdarija").encode("UTF-8")
+    ))
+    ikeyboard.append(InlineKeyboardButton(
+        "Group",
+        url="https://t.me/damienhelp"
+    ))
     inline_keyboard.append(ikeyboard)
     ikeyboard = []
     if R_CLONE_CONF_URI:
