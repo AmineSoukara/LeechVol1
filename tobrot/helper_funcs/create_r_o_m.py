@@ -40,11 +40,11 @@ async def get_markup(message: Message):
     ikeyboard = []
     ikeyboard.append(InlineKeyboardButton(
         "Bot Channel",
-        url=https://t.me/HelpBdarija
+        url="https://t.me/HelpBdarija"
     ))
     ikeyboard.append(InlineKeyboardButton(
         "Group",
-        url=https://t.me/damienhelp
+        url="https://t.me/damienhelp"
     ))
     inline_keyboard.append(ikeyboard)
     ikeyboard = []
