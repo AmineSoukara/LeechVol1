@@ -14,8 +14,8 @@
     "youtube-dl",
     "leecher"
   ],
-  "repository": "https://github.com/SpEcHiDe/PublicLeech",
-  "website": "https://github.com/SpEcHiDe/PublicLeech",
+  "repository": "https://github.com/AmineSoukara/LeechVol1",
+  "website": "https://github.com/AmineSoukara/LeechVol1",
   "logo": "https://telegra.ph/file/8b973b270f4f380a427b1.png",
   "env": {
     "ENV": {
