@@ -41,7 +41,7 @@ class Loilacaztion:
 
     HELP_MESSAGE = get_config(
         "STRINGS_HELP_MESSAGE",
-        "💬 Please Read The <a href='https://t.me/DamienHelp/5'>Pinned Message</a>", disable_web_page_preview=True
+        "💬 Please Read The <a href='https://t.me/DamienHelp/5'>Pinned Message</a>"
     )
     WRONG_MESSAGE = get_config(
         "STRINGS_WRONG_MESSAGE",
