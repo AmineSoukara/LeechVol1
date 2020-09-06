@@ -25,27 +25,27 @@ class Loilacaztion:
 
     CLEARED_THUMBNAIL = get_config(
         "STRINGS_CLEARED_THUMBNAIL",
-        "✅ Custom thumbnail cleared succesfully."
+        "⛔ Custom Thumbnail Cleared Succesfully."
     )
     HELP_SAVE_THUMBNAIL = get_config(
         "STRINGS_HELP_SAVE_THUMBNAIL",
-        "Reply to a photo to save custom thumbnail"
+        "Reply To a Photo To Save Custom Thumbnail"
     )
     SAVED_THUMBNAIL = get_config(
         "STRINGS_SAVED_THUMBNAIL",
         (
-            "Custom video / file thumbnail saved. "
-            "This image will be used in the upload, till /clearthumbnail."
+            "✅ Custom Video&File Thumbnail Saved."
+            "This Image Will Be Used in The Upload"
         )
     )
 
     HELP_MESSAGE = get_config(
         "STRINGS_HELP_MESSAGE",
-        "please read the <a href='https://t.me/c/1434259219/99'>Pinned Message</a>"
+        "💬 Please Read The <a href='https://t.me/DamienHelp/5'>Pinned Message</a>"
     )
     WRONG_MESSAGE = get_config(
         "STRINGS_WRONG_MESSAGE",
-        "current CHAT ID: <code>{CHAT_ID}</code>"
+        "Current CHAT ID: <code>{CHAT_ID}</code>"
     )
 
     NO_TOR_STATUS = get_config(
@@ -54,7 +54,7 @@ class Loilacaztion:
     )
     TOR_CANCELLED = get_config(
         "STRINGS_TOR_CANCELLED",
-        "Leech Cancelled"
+        "Download Cancelled"
     )
     TOR_CANCEL_FAILED = get_config(
         "STRINGS_TOR_CANCEL_FAILED",
