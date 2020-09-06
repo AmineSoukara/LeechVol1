@@ -29,23 +29,23 @@ async def get_markup(message: Message):
     inline_keyboard = []
     ikeyboard = []
     ikeyboard.append(InlineKeyboardButton(
-        "leech 🤔🤔",
-        callback_data=("leech").encode("UTF-8")
+        "📤 Download 📥",
+        callback_data=("dl").encode("UTF-8")
     ))
     ikeyboard.append(InlineKeyboardButton(
-        "youtube-dl",
+        "🎦 Youtube-Dl 🎦",
         callback_data=("ytdl").encode("UTF-8")
     ))
     inline_keyboard.append(ikeyboard)
-    ikeyboard = []
-    ikeyboard.append(InlineKeyboardButton(
-        "A leech TAR . GZ  🤔🤔",
-        callback_data=("leecha").encode("UTF-8")
-    ))
-    ikeyboard.append(InlineKeyboardButton(
-        "A youtube-dl TAR . GZ",
-        callback_data=("ytdla").encode("UTF-8")
-    ))
+    #ikeyboard = []
+    #ikeyboard.append(InlineKeyboardButton(
+       # "A leech TAR . GZ  🤔🤔",
+        #callback_data=("leecha").encode("UTF-8")
+   # ))
+   # ikeyboard.append(InlineKeyboardButton(
+       # "A youtube-dl TAR . GZ",
+       # callback_data=("ytdla").encode("UTF-8")
+   # ))
     inline_keyboard.append(ikeyboard)
     ikeyboard = []
     if R_CLONE_CONF_URI:
@@ -74,6 +74,6 @@ async def get_markup(message: Message):
     inline_keyboard = []
 
     reply_text = (
-        "please select the required option"
+        "💬 Please Select The Required Option @DamienHelp"
     )
     return reply_text, reply_markup
