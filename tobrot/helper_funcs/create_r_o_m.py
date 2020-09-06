@@ -39,12 +39,12 @@ async def get_markup(message: Message):
     inline_keyboard.append(ikeyboard)
     ikeyboard = []
     ikeyboard.append(InlineKeyboardButton(
-        "Bot Channel",
+        "🔔 Channel",
         url="https://t.me/HelpBdarija"
     ))
     ikeyboard.append(InlineKeyboardButton(
-        "Group",
-        url="https://t.me/damienhelp"
+        "ℹ Help",
+        url="https://t.me/damienhelp/5"
     ))
     inline_keyboard.append(ikeyboard)
     ikeyboard = []
@@ -74,6 +74,6 @@ async def get_markup(message: Message):
     inline_keyboard = []
 
     reply_text = (
-        "💬 Please Select The Required Option @DamienHelp"
+        "💬 Please Select The Required Option"
     )
     return reply_text, reply_markup
