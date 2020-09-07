@@ -32,10 +32,10 @@ async def get_markup(message: Message):
         "📤 Download 📥",
         callback_data=("dl").encode("UTF-8")
     ))
-    ikeyboard.append(InlineKeyboardButton(
-        "🎦 Youtube-Dl 🎦",
-        callback_data=("ytdl").encode("UTF-8")
-    ))
+    #ikeyboard.append(InlineKeyboardButton(
+       # "🎦 Youtube-Dl 🎦",
+       # callback_data=("ytdl").encode("UTF-8")
+    #))
     inline_keyboard.append(ikeyboard)
     ikeyboard = []
     ikeyboard.append(InlineKeyboardButton(
