@@ -8,7 +8,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 ### The Eas(iest) Way
 a)You have to fork this repo at first(Don't know how to🤔, Then google it😐)
 
-b)Find `app.jso`. 🧐
+b)Find `a.json`. 🧐
 
 c)Tap on that. 😬
 
