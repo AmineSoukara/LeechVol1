@@ -20,15 +20,15 @@ from tobrot.get_cfg import get_config
 class Commandi:
     LEECH = get_config(
         "COMMANDI_LEECH",
-        "dl"
+        "dl@damienRobot"
     )
     PURGE = get_config(
         "COMMANDI_PURGE",
-        "purge@DamienUserBot"
+        "purge@DamienroBot"
     )
     YTDL = get_config(
         "COMMANDI_YTDL",
-        "ytdl"
+        "ytdl@damienrobot"
     )
     STATUS = get_config(
         "COMMANDI_STATUS",
@@ -56,11 +56,11 @@ class Commandi:
     )
     HELP = get_config(
         "COMMANDI_HELP",
-        "help@DamienUserBot"
+        "help@DamienroBot"
     )
     SAVETHUMBNAIL = get_config(
         "COMMANDI_SAVETHUMBNAIL",
-        "save@DamienUserBot"
+        "save@DamiebroBot"
     )
     CLEARTHUMBNAIL = get_config(
         "COMMANDI_CLEARTHUMBNAIL",
